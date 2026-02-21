@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engagement Invitation</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#4B0F1C,#2B0610);
+    font-family:'Playfair Display', serif;
+    overflow:hidden;
+    color:#F5EDE6;
+    text-align:center;
+}
+
+.container{
+    animation: fadeIn 2s ease-in-out;
+}
+
+.names{
+    font-family:'Great Vibes', cursive;
+    font-size:48px;
+    color:#E6B7A9;
+    margin-bottom:20px;
+}
+
+.details{
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+button{
+    padding:12px 30px;
+    font-size:16px;
+    border:none;
+    border-radius:30px;
+    background:#E6B7A9;
+    color:#4B0F1C;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    box-shadow:0 0 20px #E6B7A9;
+    transform:scale(1.05);
+}
+
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<!-- Background Music -->
+<audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_9f4d6e1a4d.mp3?filename=romantic-piano-110997.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+    <div class="names">
+        Hamza Ali &<br>Mirna Mostafa
+    </div>
+
+    <div class="details">
+        Together with joy in our hearts,<br>
+        we invite you to celebrate our Engagement Ceremony.<br><br>
+
+        Sunday, March 22, 2026<br>
+        6:00 PM<br><br>
+
+        Location: To Be Announced
+    </div>
+
+    <button onclick="alert('RSVP Confirmed 💜')">
+        Kindly Confirm Your Attendance
+    </button>
+</div>
+
+</body>
+</html>
